@@ -11,9 +11,9 @@
     <div id="online-status">...</div>
     <script>
       if (navigator.onLine) {
-        document.getElementById("online-status").innerHTML("online");
+        document.getElementById("online-status").innerHTML = "online";
       } else {
-        document.getElementById("online-status").innerHTML("offline");
+        document.getElementById("online-status").innerHTML = "offline";
       }
 
       if (navigator.serviceWorker) {
