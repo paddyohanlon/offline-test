@@ -1,4 +1,4 @@
-const version = "V0.01";
+const version = "V0.02";
 const CACHE_NAME = version + "staticfiles";
 const urlsToCache = ["/"];
 
