@@ -20,7 +20,7 @@ addEventListener("activate", (activateEvent) => {
       .then((cacheNames) => {
         return Promise.all(
           cacheNames.map((cacheName) => {
-            if (cacheName != staticCacheName) {
+            if (cacheName != CACHE_NAME) {
               return caches.delete(cacheName);
             } // end if
           }) // end map
